@@ -1,7 +1,7 @@
 const rcloadenv = require('@google-cloud/rcloadenv');
 const { IncomingWebhook } = require('@slack/client');
 
-const config_names = ['webhook_url', 'new_message', 'empty_message'];
+const config_names = ['webhook_url', 'new_message', 'empty_message', 'skip_empty'];
 exports.notify = (event, callback) => {
     const config = {};
     config_names.forEach(v => {

@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "https://github.com/kamiyaowl/splatnet2statink-docker をGKEにデプロイした際のstackdriver→Pub/Subを経由してWebhookを叩く",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@google-cloud/rcloadenv": "^0.2.1",
+    "@slack/client": "^4.3.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
