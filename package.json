@@ -1,0 +1,21 @@
+{
+  "name": "splatnet2statink-docker-logs-to-slack",
+  "version": "1.0.0",
+  "description": "https://github.com/kamiyaowl/splatnet2statink-docker をGKEにデプロイした際のstackdriver→Pub/Subを経由してWebhookを叩く",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamiyaowl/splatnet2statink-docker-logs-to-slack.git"
+  },
+  "author": "K",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kamiyaowl/splatnet2statink-docker-logs-to-slack/issues"
+  },
+  "homepage": "https://github.com/kamiyaowl/splatnet2statink-docker-logs-to-slack#readme"
+}
