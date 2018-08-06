@@ -19,7 +19,7 @@ exports.notify = (event, callback) => {
         return;
     }
     const text = data[key];
-    if (!data) {
+    if (!text) {
         console.error(`data[${key}] is null or empty`);
         callback();
         return;
