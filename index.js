@@ -26,7 +26,7 @@ exports.notify = (event, callback) => {
     }
     // notify
     const body = text;
-    const webhook = new IncomingWebhook(config.WEBHOOL_URL);
+    const webhook = new IncomingWebhook(config.WEBHOOK_URL);
     webhook.send(body, (err, res) => {
         if (err) { console.error(err); }
         callback();
